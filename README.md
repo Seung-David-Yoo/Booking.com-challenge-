@@ -1,6 +1,7 @@
 # Booking.com-challenge
 
 Data preprocessing
+
 Raw dataset was grouped by ‘utrip_id’ so, cities are ordered and grouped within the
 same trip. Then the ordered cities are paired like (departure city, arrival city), for instance, if a
 man goes through A, B, anc C, they are paired like (A,B), and (B,C). The same paired rows
@@ -14,6 +15,7 @@ dataframe. And then the same paired cities are counted and the data frame has th
 
 
 Modelling
+
 The overview of this model is that a city_id from the transformed dataset passes through
 three gaussian distributions and returns a fourth city list. Through another dataset and bayesian
 theorem, four cities are selected for prediction out of the list. In the gaussian distribution part, if
