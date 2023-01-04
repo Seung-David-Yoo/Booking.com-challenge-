@@ -1,5 +1,29 @@
 # Booking.com-challenge
 
+Motivation
+
+Booking.com is one of the well known applications used by millions of travelers for
+planning their travel across the world along with their stay and transportation.
+The objective of this challenge is to develop a method for recommending the optimal location for
+their next trip in real-time using a dataset comprised of millions of actual, anonymised hotel
+reservations.The challenge is part of the WebTour 2021 ACM WSDM workshop on web tourism
+that was held at the 14th ACM international 2021 WSDM Conference. WSDM is one of the
+premier conferences on web-inspired research involving search and data mining. Based on
+millions of actual, anonymized hotel reservation records provided by Booking.com, our aim for
+this project was to design and construct a sequential recommendation system for producing the
+best forecast for a customer's most recent destination.
+
+Background
+
+Nowadays, many online services such as social media, live streaming platforms and
+E-commerce depend heavily on recommendation systems. Nevertheless, as the demand for
+large-scale data and more effective recommendation models continue growing, a great need for
+such a system is highly desired. For example, as the covid-19 pandemic is slowing down, many
+people are planning for a trip with booking.com which is one of most commonly used websites
+for lodging reservations. Normally speaking, many travelers would like to set multiple
+destinations as they prefer visiting a couple of more cities or countries during one trip.
+Therefore, we are looking forward to building a recommendation system based on datasets
+provided by booking.com.
 Data preprocessing
 
 Raw dataset was grouped by ‘utrip_id’ so, cities are ordered and grouped within the
