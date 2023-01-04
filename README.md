@@ -31,23 +31,22 @@ repeat, a fourth city list was generated having 114 cities. However, for predict
 are needed, so, lift based bayesian theorem was used to extract four cities.
 Formula for lift is seen in (1),
 
-Lift=P(A and B)/P(A)*P(B) (1)
+Lift=P(A and B)/P(A)*P(B) - (1)
 
 For this calculation, a second transformed dataset was used. This data frame has three
 columns, ‘first_city’, ‘fourth_city’, and ‘count’. So, the given city_id, 33408, goes to the ‘first_city’
 column to return other values.
 
 P(A and B)= the number of (first_city, fourth_city) in the second dataframe/sum of corresponding
-‘count’ in the second dataframe (2)
+‘count’ in the second dataframe - (2)
 
 P(A) =the ’count’ of each fourth city element from the ‘fourth_cites’/sum of corresponding ‘count’
-in the second
-(3)
+in the second - (3)
 
 P(B) =the ‘count’ of first city in new dataframe /sum of corresponding ‘count’ in the second
-dataframe (4)
+dataframe - (4)
 
-P(A|B)= Lift*P(A) (5)
+P(A|B)= Lift*P(A) - (5)
 
 In fourth list, there are many duplicate cities, so to get final value, P(A|B) and column the
 ‘count’ of fourth cities are multiplied and then the list ordered by descending order. Finally, the
