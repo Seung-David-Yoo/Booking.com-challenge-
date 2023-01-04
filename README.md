@@ -36,6 +36,7 @@ Lift=P(A and B)/P(A)*P(B) (1)
 For this calculation, a second transformed dataset was used. This data frame has three
 columns, ‘first_city’, ‘fourth_city’, and ‘count’. So, the given city_id, 33408, goes to the ‘first_city’
 column to return other values.
+
 P(A and B)= the number of (first_city, fourth_city) in the second dataframe/sum of corresponding
 ‘count’ in the second dataframe (2)
 
