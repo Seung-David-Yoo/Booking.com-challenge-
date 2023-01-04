@@ -1,4 +1,4 @@
-# Booking.com-challenge
+# Booking.com-challenge: Multi-Destination Trip Sequential Recommendation System
 
 Motivation
 
